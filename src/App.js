@@ -1,12 +1,9 @@
-import './App.css';
-import Navbar from './components/navbar';
+import Login from './login';
 
 function App() {
   return (
-    <div className="App">
-      <h1> Welcome </h1>
-      <Navbar title="ram siggh" />
-      <Navbar title="pan singh tomar" />
+    <div >
+      <Login></Login>
     </div>
   );
 }
